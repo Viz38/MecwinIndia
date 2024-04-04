@@ -10404,6 +10404,18 @@ width: 85vw;
     width: 100%;
     
   }
+  .section-subtitle {
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #0A62A3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    font-weight: 400;
+  }
   .collection-list-wrapper-flex{
     display: flex;
     flex-direction: column;
