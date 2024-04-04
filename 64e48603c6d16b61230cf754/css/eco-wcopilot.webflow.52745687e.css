@@ -9138,6 +9138,7 @@ width: 85vw;
     padding-bottom: 24px;
     padding-left: 15px;
     display: flex;
+    opacity: 1;
   }
 
   .image-burger {
@@ -9146,6 +9147,7 @@ width: 85vw;
 
   .brand-tablet {
     display: block;
+    opacity: 1;
   }
 
   .style-guide-tab-content-wrapper {
