@@ -7183,6 +7183,7 @@ width: 85vw;
 
 .banner-title-home {
   color: var(--white);
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
 }
