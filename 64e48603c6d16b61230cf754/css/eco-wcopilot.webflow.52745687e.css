@@ -4975,6 +4975,15 @@ width: 85vw;
   margin-bottom: 20px;
 }
 
+.position-name {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
 .contact-3-inputs-wrapper {
   grid-column-gap: 15px;
   grid-row-gap: 0px;
@@ -10972,7 +10981,11 @@ width: 85vw;
   }
 
   .contacts-form-wrapper iframe {
-    width: 100%;
+    width: 640px;
     height: 480px;
+  }
+
+  .position-name {
+    display: block;
   }
 }
