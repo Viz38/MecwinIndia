@@ -4959,6 +4959,7 @@ width: 85vw;
 }
 
 .contacts-form-wrapper {
+  display: flex;
   width: 100%;
   background-color: var(--primary-light);
   border-radius: 10px;
