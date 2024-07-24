@@ -4957,10 +4957,9 @@ width: 85vw;
   object-fit: cover;
   border-radius: 10px;
 }
-
 .contacts-form-wrapper {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
@@ -4968,6 +4967,12 @@ width: 85vw;
   border-radius: 10px;
   margin-bottom: 0;
   padding: 40px;
+}
+
+.contacts-form-wrapper iframe {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .contact-3-inputs-wrapper {
@@ -10951,4 +10956,23 @@ width: 85vw;
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+@media (min-width: 768px) {
+  .contacts-form-wrapper iframe {
+    width: 48%;
+    height: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-form-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contacts-form-wrapper iframe {
+    width: 100%;
+    height: 480px;
+  }
 }
