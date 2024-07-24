@@ -4960,6 +4960,9 @@ width: 85vw;
 
 .contacts-form-wrapper {
   display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  flex-direction: row;
   width: 100%;
   background-color: var(--primary-light);
   border-radius: 10px;
