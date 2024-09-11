@@ -1,0 +1,11 @@
+﻿@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/khand/v17/TwMA-IINQlQQ0YpV.ttf) format('truetype');
+}
+
+.preloader .inner {
+  animation-duration: 1s; /* Reduce the duration for faster animation */
+}

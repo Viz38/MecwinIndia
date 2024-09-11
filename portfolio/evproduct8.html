@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Font */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            /* border-bottom: 1px solid #ddd; */
+            /* justify-content: center; */
+        }
+
+        header .logo img {
+            width: 150px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+        }
+
+        /* Product Display Section */
+        .product-display {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .product-images img {
+            width: 60px;
+            background-color: #e2d9d9;
+
+            cursor: pointer;
+        }
+
+        .main-image {
+            width: 40%;
+            height: auto;
+        }
+
+        .product-info {
+            flex-grow: 1;
+        }
+
+        .product-info h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .product-info p {
+            margin-bottom: 20px;
+        }
+
+        .product-purchase {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .product-purchase input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product-purchase button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product-purchase button:hover {
+            background-color: #555;
+        }
+
+        /* Divider for Similar Products */
+        .divider {
+            border-top: 2px solid #ddd;
+            margin: 40px 0;
+        }
+
+        /* Similar Products Section */
+        .similar-products {
+            margin-top: 20px;
+        }
+
+        .similar-products h2 {
+            margin-bottom: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .product-item {
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            transition: transform 0.3s;
+        }
+
+        .product-item img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .product-item p {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .product-item a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="mecwin logo.png" alt="Company Logo"> <!-- Replace with your logo -->
+        </div>
+    </header>
+
+    <main>
+        <section class="product-display">
+            <div class="product-images">
+                <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/MID DRIVE MOTORS/New folder (2)/Untitled-1.webp" alt="Thumbnail 1">
+                <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/MID DRIVE MOTORS/New folder (2)/Untitled-2.webp" alt="Thumbnail 2">
+                <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/MID DRIVE MOTORS/New folder (2)/Untitled-3.webp" alt="Thumbnail 3">
+            </div>
+            <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/MID DRIVE MOTORS/New folder (2)/Untitled-1.webp" alt="Main Product Image" class="main-image">
+            <div class="product-info">
+                <h1>Mid Drive motor</h1>
+                <p><h4> Description: </h4><br><br><ul><li>Voltage Rating : 48V-72V.</li><br>
+                    <li>Max DC Current : 100A-150A</li><br>
+                    <li>Rated Power : 1800W-3200W</li><br>
+                    <li>Max Speed : 2500rpm-4000rpm</li><br>
+                    <li>Cooling : Forced air/Natural cooling </li> <br>
+                    <li> Gear Type : Helical/Spline gear </li><br>
+                    <li>IP rating : IP67</li><br> 
+                    </p></ul>
+                <div class="product-purchase">
+                    <!-- <input type="number" value="10" min="1"> -->
+                    <!-- <button>Add to cart</button> -->
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="similar-products">
+            <h2>Similar Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/10 INCH HUB MOTOR/Untitled-2.webp" alt="Similar Product 1">
+                    <p>10 inch hub motor</p>
+                    <a href="evproduct2.html">Learn more ></a>
+                </div>
+                <div class="product-item">
+                    <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/12 INCH HUB MOTOR/Untitled-2.webp" alt="Similar Product 2">
+                    <p>12 inch hub motor</p>
+                    <a href="evproduct3.html">Learn more ></a>
+                </div>
+                <div class="product-item">
+                    <img src="../portfolio/SOLAR AND EV PRODUCT IMAGES/EV PRODUCTS/14 INCH HUB MOTOR/Untitled-1.webp" alt="Similar Product 3">
+                    <p>14 inch hub motor</p>
+                    <a href="evproduct4.html">Learn more ></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

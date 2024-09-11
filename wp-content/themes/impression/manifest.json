@@ -1,0 +1,22 @@
+{
+    "lang": "en",
+    "short_name": "Project",
+    "name": "Project Name",
+    "description": "Project Description",
+    "dir": "ltr",
+    "icons": [{
+        "src": "/wp-content/themes/impression/media/dist/img/manifest/manifest-64x64.png",
+        "sizes": "64x64"
+    }, {
+        "src": "/wp-content/themes/impression/media/dist/img/manifest/manifest-192x192.png",
+        "sizes": "192x192"
+    }, {
+        "src": "/wp-content/themes/impression/media/dist/img/manifest/manifest-512x512.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "orientation": "natural",
+    "start_url": "/"
+}
