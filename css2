@@ -7,5 +7,5 @@
 }
 
 .preloader .inner {
-  animation-duration: 1s; /* Reduce the duration for faster animation */
+  animation-duration: 1s; 
 }
