@@ -4079,8 +4079,8 @@ div.preloader .inner {
 }
 
 div.preloader .icon {
-  -webkit-animation: rotate 3s linear;
-  animation: rotate 3s linear;
+  -webkit-animation: rotate 1.8s linear;
+  animation: rotate 1.8s linear;
   max-width: 220px;
   position: absolute;
   top: 50%;
