@@ -456,7 +456,7 @@
           Home
          </a>
                             </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current_page_item current-menu-item current-menu-item menu-item-432">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current_page_item current-menu-item menu-item-432">
                                 <a href="../portfolio/index.htm">
           Products
          </a>
@@ -493,13 +493,13 @@
                     <div class="container">
                         <div class="content" data-scroll="" data-scroll-call="fadeout" data-scroll-repeat="" data-scroll-speed="3">
                             <h3 class="subtitle" data-aos="fade-in" data-aos-delay="700" data-aos-duration="1000" style="font-size: 45px;">
- ~ Our Products
-</h3>
+                            ~ EV Controller
+                            </h3>
                             <h6 class="title splitting" data-splitting="" style="font-size: 25px;">
- <p>
-  Our products embody the Mecwin culture of innovation, precision, and customer-first engineering. Each product is meticulously designed and developed with a commitment to quality and reliability, ensuring they meet the highest standards in the industry.
- </p>
-</h6>
+                            <p>
+                                Our EV Controllers provide seamless control and management of electric vehicle systems, ensuring optimized performance and efficiency. Engineered with precision, they support a wide range of EV applications, showcasing Mecwin’s commitment to delivering top-tier electric mobility solutions. 
+                            </p>
+                            </h6>
                         </div>
                     </div>
                 </div>
@@ -510,7 +510,7 @@
                         <!--Listing-->
                         <div class="listing">
                             <div class="grid" id="posts-container">
-                                <article class="company-tile imp-module light" data-letter="A" id="company-tile">
+                                <article class="company-tile imp-module light" data-letter="A" id="company-tile" data-href="solar/product1.html">
                                     <div class="bg-gradient">
                                     </div>
                                     <div class="categories">
@@ -535,38 +535,10 @@
                                     <div class="buttons">
                                         <a class="button" href="solar/product1.html" target="">
                                             <span class="text">
-             Learn more
-            </span>
+                                            Learn more
+                                            </span>
                                             <span class="arrow">
-            </span>
-                                        </a>
-                                    </div>
-                                </article>
-                                <article class="company-tile imp-module light" data-letter="A" id="company-tile">
-                                    <div class="bg-gradient">
-                                    </div>
-                                    <div class="categories">
-                                    </div>
-                                    <div class="inner">
-                                        <div class="title" style="display: none">
-                                        </div>
-                                        <div class="content">
-                                            <img alt="" class="not_grayscale lazyload" data-eio-rheight="200" data-eio-rwidth="300" data-sizes="auto" decoding="async" height="200" src="../wp-content/uploads/solar/solar_pumps.webp" width="300" />
-                                            <noscript>
-                                                <img alt="" class="not_grayscale" data-eio="l" decoding="async" height="200" sizes="(max-width: 300px) 100vw, 300px" src="../wp-content/uploads/tyre.png" width="300" />
-                                            </noscript>
-                                            <div class="copy">
-                                                Surface Solar Pump
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="buttons">
-                                        <a class="button" href="solar/product2.html" target="_blank">
-                                            <span class="text">
-             Learn more
-            </span>
-                                            <span class="arrow">
-            </span>
+                                            </span>
                                         </a>
                                     </div>
                                 </article>
@@ -678,6 +650,11 @@ var eio_lazy_vars = {"exactdn_domain":"ecskrgnm8g8.exactdn.com","skip_autoscale"
     <script id="vendor-script-js" src="../wp-content/themes/impression/media/dist/js/vendor.min.js?ver=6.5.3" type="text/javascript">
     </script>
     <script id="global-script-js" src="../wp-content/themes/impression/media/dist/js/global.min.js?ver=6.5.3" type="text/javascript">
+    </script>
+    <script>
+        document.getElementById("company-tile").addEventListener("click", function() {
+            window.location.href = this.getAttribute("data-href");
+        });
     </script>
 </body>
 
