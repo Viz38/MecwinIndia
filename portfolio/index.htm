@@ -784,8 +784,10 @@ var eio_lazy_vars = {"exactdn_domain":"ecskrgnm8g8.exactdn.com","skip_autoscale"
     <script id="global-script-js" src="../wp-content/themes/impression/media/dist/js/global.min.js?ver=6.5.3" type="text/javascript">
     </script>
     <script>
-        document.getElementById("company-tile").addEventListener("click", function() {
-            window.location.href = this.getAttribute("data-href");
+        document.querySelectorAll(".company-tile").forEach(function(card) {
+            card.addEventListener("click", function() {
+                window.location.href = this.getAttribute("data-href");
+            });
         });
     </script>
     <!-- Footer tracking code(s) -->
