@@ -4,132 +4,169 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://mecwinindia.com/</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://mecwinindia.com/index.htm</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://mecwinindia.com/portfolio/index.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/discover/index.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/team/index.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/contact-us/index.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/privacy/4G.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/privacy/2G.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mecwinindia.com/privacy/workroute.htm</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/special.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://mecwinindia.com/portfolio/solar_pumps.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/IOT.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://mecwinindia.com/portfolio/controllers/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/EV.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/solar.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://mecwinindia.com/portfolio/middrive_motors.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/solarproduct1.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/ev_controllers.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/solarproduct2.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/special_purpose.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct1.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/solar_pumps/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct2.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/solar_pumps/product2.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct3.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct4.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product2.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct5.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product3.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/evproduct6.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product4.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/iotproduct1.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product5.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/specialproduct1.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/hub_motors/product6.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/specialproduct2.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/middrive_motors/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/specialproduct3.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/middrive_motors/product2.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://mecwinindia.com/portfolio/specialproduct4.html</loc>
-  <lastmod>2024-10-10T08:36:54+00:00</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mecwinindia.com/portfolio/middrive_motors/product3.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/ev_controllers/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/ev_controllers/product2.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/special_purpose/product1.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/special_purpose/product2.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/special_purpose/product3.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mecwinindia.com/portfolio/special_purpose/product4.html</loc>
+  <lastmod>2024-10-22T04:23:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
 
 </urlset>

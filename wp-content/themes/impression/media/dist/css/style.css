@@ -4163,7 +4163,7 @@ footer.primary:before {
   position: absolute;
   top: 0;
   right: -20%;
-  background-image: url(../imgs/svg/nautilus.svg);
+  background-image: url(../../../../../../../wp-content/uploads/svg/nautilus.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 62%;
@@ -4201,7 +4201,7 @@ footer.primary .footer-link:before {
   position: absolute;
   right: 35px;
   top: 35px;
-  background-image: url("../imgs/svg/arrow-top-right.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/arrow-top-right.svg");
   background-repeat: no-repeat;
   transition: 0.5s all ease;
   width: 44px;
@@ -4376,7 +4376,7 @@ header.primary nav.primary .menu-item.login-button a {
 
 header.primary nav.primary .menu-item.login-button a:before {
   content: "";
-  background-image: url("../imgs/svg/user.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/user.svg");
   display: inline-block;
   position: relative;
   top: 3px;
@@ -4499,7 +4499,7 @@ header.primary nav.primary .menu-item.login-button:hover a:before {
     position: absolute;
     right: 15px;
     top: 15px;
-    background-image: url("../imgs/svg/arrow-top-right.svg");
+    background-image: url("../../../../../../../wp-content/uploads/svg/arrow-top-right.svg");
     background-repeat: no-repeat;
     width: 44px;
     height: 44px;
@@ -4662,7 +4662,7 @@ section.approach-graphic .tab-title:before {
   position: absolute;
   right: 25px;
   top: 30px;
-  background-image: url("../imgs/svg/arrow-top-right.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/arrow-top-right.svg");
   background-repeat: no-repeat;
   width: 44px;
   height: 44px;
@@ -5162,7 +5162,7 @@ section.careers-carousel:before {
   position: absolute;
   top: -10%;
   right: -15%;
-  background-image: url(../imgs/svg/nautilus.svg);
+  background-image: url(../../../../../../../wp-content/uploads/svg/nautilus.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 62%;
@@ -5458,19 +5458,19 @@ section.contact .contact-item a:hover {
 }
 
 section.contact .contact-item a[href^=mailto] .icon {
-  background-image: url("../imgs/svg/envelope.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/envelope.svg");
   width: 26px;
   height: 19px;
 }
 
 section.contact .contact-item a[href^="tel:"] .icon {
-  background-image: url("../imgs/svg/phone.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/phone.svg");
   width: 24px;
   height: 24px;
 }
 
 section.contact .contact-item .icon {
-  background-image: url("../imgs/svg/pin.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/pin.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;
@@ -6724,7 +6724,7 @@ section.home-hero .news-widget .text {
 
 section.home-hero .news-widget .text:after {
   content: "";
-  background-image: url("../imgs/svg/news_widget.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/news_widget.svg");
   position: relative;
   margin-left: 12px;
   width: 14px;
@@ -6892,7 +6892,7 @@ section.home-intro .section-inner:before {
   position: absolute;
   top: 0;
   right: -15%;
-  background-image: url(../imgs/svg/nautilus-new.svg);
+  background-image: url(../../../../../../../wp-content/uploads/svg/nautilus-new.svg);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -7328,7 +7328,7 @@ section.login-portal .top-content img {
 section.login-portal .top-content .arrow {
   right: 35px;
   top: 35px;
-  background-image: url("../imgs/svg/arrow-top-right.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/arrow-top-right.svg");
   background-repeat: no-repeat;
   transition: 0.5s all ease;
   width: 44px;
@@ -7584,7 +7584,7 @@ section.portfolio-listing .search-submit {
 }
 
 section.portfolio-listing .sf-field-search {
-  background-image: url("../imgs/svg/search.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/search.svg");
   background-size: 34px;
   background-repeat: no-repeat;
   background-position: 100% 50%;
@@ -8197,7 +8197,7 @@ section.team-listing input[type=search]::-webkit-search-results-decoration {
 }
 
 section.team-listing .sf-field-search {
-  background-image: url("../imgs/svg/search.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/search.svg");
   background-size: 34px;
   background-repeat: no-repeat;
   background-position: 100% 50%;
@@ -8527,7 +8527,7 @@ section.team-profile .text-and-icon-block .icon {
   height: 30px;
   min-width: 30px;
   background-repeat: no-repeat;
-  background-image: url("../imgs/svg/work.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/work.svg");
   margin-top: 5px;
 }
 
@@ -8545,11 +8545,11 @@ section.team-profile .text-and-icon-block .value a {
 }
 
 section.team-profile .text-and-icon-block.education .icon {
-  background-image: url("../imgs/svg/education.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/education.svg");
 }
 
 section.team-profile .text-and-icon-block.hometown .icon {
-  background-image: url("../imgs/svg/home.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/home.svg");
 }
 
 section.team-profile .text-and-icon-block ul {
@@ -8571,7 +8571,7 @@ section.team-profile .text-and-icon-block ul li:before {
   left: 0px;
   width: 10px;
   height: 10px;
-  background-image: url(../imgs/svg/arrow-right.svg);
+  background-image: url(../../../../../../../wp-content/uploads/svg/arrow-right.svg);
   background-repeat: no-repeat;
   background-size: contain;
   filter: grayscale(1) brightness(10);
@@ -8688,7 +8688,7 @@ section.threed-carousel:before {
   position: absolute;
   top: -10%;
   right: -15%;
-  background-image: url(../imgs/svg/nautilus.svg);
+  background-image: url(../../../../../../../wp-content/uploads/svg/nautilus.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 62%;
@@ -8941,7 +8941,7 @@ section.timeline .grid .column {
 }
 
 section.timeline .grid .column:not(:first-child) {
-  background-image: url("../imgs/svg/dashed_line.svg");
+  background-image: url("../../../../../../../wp-content/uploads/svg/dashed_line.svg");
   background-repeat: no-repeat;
   opacity: 0.7;
 }
