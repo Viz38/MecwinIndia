@@ -5398,6 +5398,9 @@ section.contact {
   background: var(--c--1);
   color: var(--c--4);
   height: 100vh;
+  padding-top: 2rem;
+  border-radius: 30px;
+  margin-top: -20px;
 }
 
 section.contact .bg {
@@ -5602,6 +5605,89 @@ section.content404 .button-wrap {
   section.content404 .container {
     padding-bottom: 100px;
     padding-top: 120px;
+  }
+}
+/* ======CONTACT PAGE=BANNER===========} */
+
+.contactpagehead{
+  height: 80vh;
+  background-image: url(../../../../../uploads/bg.png);
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contactmainhead{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+
+  /* height: 30rem; */
+}
+.contactbanner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60%;
+
+ 
+}
+.contactbanner p{
+  font-size: 4rem;
+  color: #46deff;
+  font-weight: 400;
+  
+}
+
+.container_mouse {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  text-align: center;
+  color: var(--color);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  /* border: 1px solid blue; */
+  padding-bottom: 2rem;
+  cursor: pointer;
+  height: 50%;
+}
+
+.container_mouse .mouse-btn {
+  margin: 10px auto;
+  width: 30px;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+}
+
+.container_mouse .mouse-btn .mouse-scroll {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.918), rgb(255, 255, 255));
+  border-radius: 50%;
+  margin: auto;
+  animation: scrolling 1s linear infinite;
+}
+
+
+@keyframes scrolling {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(10px);
   }
 }
 /**************************************************************
