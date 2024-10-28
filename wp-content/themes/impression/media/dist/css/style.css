@@ -6454,9 +6454,9 @@ section.home-approach .swiper-pagination-progressbar .swiper-pagination-progress
 
 /*Bottom Button*/
 section.home-approach .button-wrapper {
-  display: block;
+  display: flex;
   margin: 79px auto 0 auto;
-  text-align: center;
+ 
 }
 
 @media (max-width: 1220px) {
