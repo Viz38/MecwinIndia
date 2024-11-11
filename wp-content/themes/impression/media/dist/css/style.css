@@ -7047,7 +7047,7 @@ section.home-stats {
   position: relative;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background: #0C1620;
+  background: #006ea0;
   color: var(--c--4);
   margin-top: 0px;
   margin-bottom: -30px;
@@ -7158,7 +7158,7 @@ section.home-stats .text-slider {
          justify-content: center;
       }*/
 section.home-stats .subtitle {
-  color: #4DDFFF;
+  color: #ffffff;
   margin-bottom: 50px;
   border-top: 1px solid #4DDFFF;
   padding-top: 5px;
