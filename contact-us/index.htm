@@ -26,6 +26,88 @@
             padding: 0 !important;
         }
     </style>
+      <style>
+        .mecwin_service-main {
+        padding: 2rem;
+        }
+    
+        .mecwin_service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        }
+    
+        .mecwin_service-item {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .mecwin_service-item iframe{
+            height: 15rem;
+        }
+        /* Adjust height for smaller screens */
+@media (max-width: 1024px) {
+    .mecwin_service-item iframe {
+        height: 12rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mecwin_service-item iframe {
+        height: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .mecwin_service-item iframe {
+        height: 8rem;
+    }
+}
+    
+        .mecwin_service-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 7px 17px rgba(0, 0, 0, 0.4);
+        }
+    
+        .mecwin_service-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        }
+    
+        .mecwin_service-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        /* background-color: #f9f9f9; */
+        border-top: 1px solid #ddd;
+        }
+    
+        .linebreakservice{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+        .linebreakservice > h6{
+            font-size: 14px;
+        }
+    
+        .mecwin_service-icon>p{
+            font-size: 1.6rem;
+        }
+    
+        .mecwin_service-name {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #333;
+        }
+      </style>
     <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -37,7 +119,7 @@
             padding: calc(.667em + 2px) calc(1.333em + 2px);
             font-size: 1.125em
         }
-
+    
         .wp-block-file__button {
             background: #32373c;
             color: #fff;
@@ -477,7 +559,7 @@
                     
                     <span class="mouse-btn">
                         <span class="mouse-scroll"></span>
-                        <a class="scroll-down" href="#contact"></a> 
+                        <a class="scroll-down" href="#contact"></a>
                     </span>
                     <span style="color: #fff;">Scroll Down</span>
                 </div>
@@ -551,6 +633,119 @@
                     </div>
                 </div>
             </section>
+
+            <div class="scroll-section" data-scroll-section="" style="z-index: 5; position: relative">
+                <section class="approach-graphic imp-module" id="approach-graphic">
+                 <div class="section-wrapper">
+                  
+           
+                   <main class="mecwin_service-main">
+                    <p style="text-align: center; font-size: 2rem;">Explore Our Service Locations</p><br>
+                       <div class="mecwin_service-grid">
+                         <!-- Service 1 -->
+                         <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3719.0347092723346!2d81.66050837493503!3d21.230472180469867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEzJzQ5LjciTiA4McKwMzknNDcuMSJF!5e0!3m2!1sen!2sin!4v1738144013835!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Raipur</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">LAXMI KADAM FOOTWEAR, NEAR SAI MANDIR, PURENA, A08, SAHANI VIHAR,MAHAVEER NAGAR ROAD, VASANT VIHAR,RAIPUR 492001 CHHATTISGARH</h5>
+                             <h6>8435190905</h6>
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Service 2 -->
+                         <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3663.0149705727044!2d85.3054528750015!3d23.35147217894459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDIxJzA1LjMiTiA4NcKwMTgnMjguOSJF!5e0!3m2!1sen!2sin!4v1738144093629!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Ranchi</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">Mukul Bakshi Center Ashoka Ext, opposite, Ashoka Nagar road no-3 beside rameshwaram appt phase -2 ranchi jharkhand -834002</h5>
+                             <h6>7004896133</h6>
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Service 3 -->
+                         <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d8512.606302245074!2d83.18189321634193!3d23.100614466518376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA2JzA1LjQiTiA4M8KwMTEnMTUuNCJF!5e0!3m2!1sen!2sin!4v1738057825869!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Odisha</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">PLOT NO.MIG-12, BDA COLONY, POKHARIPUT, Ananta Vihar, Bhubaneswar, Khordha, Odisha, 751020</h5>
+                             <h6>8260773652</h6>
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Add more services as needed -->
+                         <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.6213850064178!2d74.76306397492486!3d20.88730558072688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDUzJzE0LjMiTiA3NMKwNDUnNTYuMyJF!5e0!3m2!1sen!2sin!4v1738144226280!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Dhule</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">Plot no -68b , station road Vishal ishateed opposite restrawadi bhawan dhule Maharashtra </h5>
+                             <h6>9340784144</h6>
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Add more services as needed -->
+                         <div class="mecwin_service-item">
+                            <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3752.750486886263!2d75.885668474895!3d19.850507681520117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDUxJzAxLjgiTiA3NcKwNTMnMTcuNyJF!5e0!3m2!1sen!2sin!4v1738215290295!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="mecwin_service-info">
+                              <div class="mecwin_service-icon">
+                                <p>Jalna</p>
+                              </div>
+                              <div class="linebreakservice">
+                              <h5 class="mecwin_service-name">-244,1st floor priyadarshini colony bokhardan road Jalna Maharashtra -431203</h5>
+                              <h6>9579719754</h6>
+                                </div>
+                            </div>
+                          </div>
+                        <!-- Add more services as needed -->
+                        <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3558.4102513146718!2d75.72700837512578!3d26.890472176660374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUzJzI1LjciTiA3NcKwNDMnNDYuNSJF!5e0!3m2!1sen!2sin!4v1738144598472!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Jaipur</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">227 Rajni Vihar Heerapura , Ajmer Road, Jaipur, Rajasthan – 302021</h5>
+                             <h6>7425040503</h6>
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Add more services as needed -->
+                         <div class="mecwin_service-item">
+                           <iframe class="mecwin_service-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1181.7002478790728!2d77.54685444742879!3d13.016803063179246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3b716ec26ced%3A0x1f86f83469d53b8f!2sMecwin%20Technologies%20India%20Pvt%20Ltd%20-%20EV%20Motors%20and%20Solar%20Pumps!5e0!3m2!1sen!2sin!4v1737607430149!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <div class="mecwin_service-info">
+                             <div class="mecwin_service-icon">
+                               <p>Bengaluru</p>
+                             </div>
+                             <div class="linebreakservice">
+                             <h5 class="mecwin_service-name">HQ</h5>
+                             <!-- <h6>7004896133</h6> -->
+                               </div>
+                           </div>
+                         </div>
+                         <!-- Add more services as needed -->
+                         
+                         <!-- end of the div of locations-->
+                       </div>
+                     </main>
+                   
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </div>
+                </section>
+               </div>
             <br/>
             <br/>
             <!-- Footer -->
@@ -564,7 +759,7 @@
                         <b>
                         green solutions
                         </b>
-                        , empowering future.
+                        ,empowering future.
                         <br/>
                         </p>
                     </h2>
