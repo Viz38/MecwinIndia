@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+  <meta content="no-cache" http-equiv="Pragma"/>
+  <meta content="0" http-equiv="Expires"/>
+  <link rel="shortcut icon" href="../../wp-content/uploads/favicon.png" type="image/png" sizes="32x32">
+  <title>
+   IOT
+  </title>
+  <style>
+   /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Font */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            /* border-bottom: 1px solid #ddd; */
+            /* justify-content: center; */
+        }
+
+        header .logo img {
+            width: 150px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+        }
+
+        /* Product Display Section */
+        .product-display {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-top: 1rem;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .product-images img {
+            width: 60px;
+            background-color: #e2d9d9;
+
+            cursor: pointer;
+        }
+
+        .main-image {
+            width: 40%;
+            height: auto;
+        }
+
+        .product-info {
+            flex-grow: 1;
+        }
+
+        .product-info h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .product-info p {
+            margin-bottom: 20px;
+        }
+
+        .product-purchase {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .product-purchase input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product-purchase button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product-purchase button:hover {
+            background-color: #555;
+        }
+
+        /* Divider for Similar Products */
+        .divider {
+            border-top: 2px solid #ddd;
+            margin: 40px 0;
+        }
+
+        /* Similar Products Section */
+        .similar-products {
+            margin-top: 20px;
+        }
+
+        .similar-products h2 {
+            margin-bottom: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .product-item {
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            transition: transform 0.3s;
+        }
+
+        .product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.category {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .sub-point::before {
+            content: "• ";
+            font-weight: bold;
+        }
+
+/* Default size for larger screens */
+#pdfEmbed {
+    width: 80%;  /* Make it bigger */
+    height: 600px; /* Increased height */
+    max-width: 900px; /* Prevent it from being too wide */
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    #pdfEmbed {
+        width: 90%;
+        height: 500px;
+    }
+    .product-item {
+        width: 90%;
+        display: none; /* Take full width on mobile */
+    }
+
+    .product-display {
+        padding-top: 1rem;
+    }
+}
+
+/* Small Tablets & Large Phones */
+@media screen and (max-width: 768px) {
+    #pdfEmbed {
+        width: 95%;
+        height: 450px;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    #pdfEmbed {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+/* Extra Small Devices (Very Small Phones) */
+@media screen and (max-width: 360px) {
+    #pdfEmbed {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+    
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+        .product-item {
+        width: 90%;
+        display: none; /* Take full width on mobile */
+    }
+
+
+        @media screen and (max-width: 1024px) {
+    .product-item {
+        width: calc(50% - 20px); /* 2 items per row */
+    }
+    .product-item {
+        width: 90%;
+        display: none; /* Take full width on mobile */
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+    .product-display {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align for better UI */
+    }
+
+    .product-item {
+        width: 90%;
+        display: none; /* Take full width on mobile */
+    }
+
+    .main-image{
+        padding-top: 3rem;
+    }
+}
+  </style>
+ <link rel="stylesheet" href="../../wp-content/themes/impression/media/dist/css/style.css">
+</head>
+ <body>
+  <!--Header-->
+<header class="primary">
+	<div class="container">
+
+		<!-- Primary (desktop) -->
+		<nav class="primary">
+
+			<!-- Logo -->
+			<div class="logo" id="logo">
+				<a href="../index.htm" title="Mecwin Technologies India Pvt. Ltd.">
+				<img style="height: 50px;padding-top: 0%;" src="../wp-content/uploads/mecwin_logo.png" alt="Logo">                         
+			</a>
+			</div>
+
+			<!-- Menu -->
+			<div class="right-content">
+				<!-- Mobile trigger -->
+				<a href="#top" class="menu-trigger">
+                    <span class="menu-text">Menu</span>
+                    <i class="icon"><span></span><span></span></i>
+			    </a>
+				<div class="menu-header-menu-container">
+					<ul id="menu-header-menu" class="menu">
+						<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-432">
+							<a href="../../index.htm">Home</a>
+						</li>
+						<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-432">
+							<a href="../../portfolio/index.htm">Products</a>
+						</li>
+						<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1159">
+							<a href="../../discover/index.htm">About Us</a>
+						</li>
+						<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+							<a href="../../team/index.htm">Our Team</a>
+						</li>
+						<li  class="login-button menu-item menu-item-type-post_type menu-item-object-page menu-item-320">
+							<a href="../../contact-us/index.htm">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+  <main>
+   <section class="product-display">
+    <img alt="Main Product Image" class="main-image" src="../wp-content/uploads/products/iot.webp"/>
+    <div class="product-info"><br><br><br>
+        <h1> Mecwin IoT Capabilities & Experience </h1>
+                
+        <ul>
+            <li class="category">Advanced IoT Solutions:</li>
+            <ul>
+                <li class="sub-point">Real-time monitoring & remote control of devices.</li>
+                <li class="sub-point">Scalable IoT systems handling thousands of devices.</li>
+                <li class="sub-point">Integration of cloud & edge computing for low-latency data processing.</li>
+                <li class="sub-point">Advanced data analytics & AI-driven insights.</li>
+            </ul>
+    
+            <li class="category">Comprehensive Hardware & Connectivity:</li>
+            <ul>
+                <li class="sub-point">Support for multiple communication technologies: 4G, NB-IoT, LoRa, Zigbee, Wi-Fi, Bluetooth.</li>
+                <li class="sub-point">Integration with smart sensors (temperature, pressure, air quality, GPS, voltage, etc.).</li>
+                <li class="sub-point">Secure IoT networks with encryption & access control.</li>
+            </ul>
+    
+            <li class="category">Industrial & Smart Infrastructure Applications:</li>
+            <ul>
+                <li class="sub-point">Remote monitoring systems (RMS) for industrial automation.</li>
+                <li class="sub-point">Smart energy management & predictive maintenance.</li>
+                <li class="sub-point">IoT-enabled asset tracking & workflow automation.</li>
+            </ul>
+    
+            <li class="category">Government Projects & Portal Integration:</li>
+            <ul>
+                <li class="sub-point">Expertise in integrating IoT for water management with Flowmeters.</li>
+                <li class="sub-point">Worked on government-backed IoT initiatives across multiple states.</li>
+                <li class="sub-point">Successfully integrated IoT data with government portals for real-time tracking and compliance.</li>
+                <li class="sub-point">Supported smart city projects, water management, and infrastructure monitoring.</li>
+            </ul>
+        </ul>
+     <div class="product-purchase">
+      <!-- <input type="number" value="10" min="1"> -->
+      <!-- <button>Add to cart</button> -->
+     </div>
+    </div>
+   </section>
+   <div class="divider">
+   </div>
+   <!-- <section class="similar-products">
+    <div class="product-list">
+        <div class="product-item">
+            <embed id="pdfEmbed" src="../wp-content/uploads/pdf/Mecwin & IoT.pdf" type="application/pdf">
+        </div>
+    </div>
+   </section> -->
+  </main>
+  <!-- Footer -->
+
+<footer class="primary view-detect scroll-section">
+    <div class="section-inner">
+        <div class="container">
+
+            <!-- Footer text -->
+            <h2 class="footer-text" data-splitting=""><p>We build <b>green solutions</b>, empowering future.<br></p></h2>
+        </div>
+
+        <div class="footer-menu-copyright">
+            <!-- Footer Links -->
+            <ul class="footer-links">
+                <li class="footer-link">
+                    <a href="https://www.linkedin.com/company/mecwin-technologies/" target="_blank">LinkedIn</a>
+                </li>
+                <li class="footer-link">
+                    <a href="https://m.facebook.com/mecwintechindia/" target="_blank">Facebook</a>
+                </li>
+                <li class="footer-link">
+                    <a href="https://www.youtube.com/@mecwinsolarpumpsbangalore2498" target="_blank">Youtube</a>
+                </li>
+                <li class="footer-link">
+                    <a href="https://www.instagram.com/mecwin_solar_pumps__/" target="_blank">Instagram</a>
+                </li>
+            </ul>
+            
+            <div class="container">
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <span>© 2024 Mecwin Technologies India Pvt. Ltd., All Rights Reserved.</span>
+                    </div>
+                    <!-- Footer menu -->
+                    <nav>
+                        <div class="menu-footer-menu-container">
+                            <ul id="menu-footer-menu" class="menu">
+                                <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89">
+                                    <a href="../../contact-us/index.htm">Contact</a>
+                                </li>
+                                <li id="menu-item-1437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1437">
+                                    <a rel="privacy-policy" href="../../privacy-policy/index.htm">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>                    
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
