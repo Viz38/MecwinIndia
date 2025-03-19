@@ -163,7 +163,7 @@
         }
 
 /* Default size for larger screens */
-#pdfEmbed {
+.pdfEmbed {
     width: 80%;  /* Make it bigger */
     height: 600px; /* Increased height */
     max-width: 900px; /* Prevent it from being too wide */
@@ -175,10 +175,7 @@
         width: 90%;
         height: 500px;
     }
-    .product-item {
-        width: 90%;
-        display: none; /* Take full width on mobile */
-    }
+   
 
     .product-display {
         padding-top: 1rem;
@@ -213,10 +210,7 @@
         .product-item:hover {
             transform: scale(1.05);
         }
-        .product-item {
-        width: 90%;
-        display: none; /* Take full width on mobile */
-    }
+       
 
 
         @media screen and (max-width: 1024px) {
@@ -338,13 +332,13 @@
    </section>
    <div class="divider">
    </div>
-   <!-- <section class="similar-products">
+   <section class="similar-products">
     <div class="product-list">
         <div class="product-item">
-            <embed id="pdfEmbed" src="../wp-content/uploads/pdf/Mecwin & IoT.pdf" type="application/pdf">
+            <embed class="pdfEmbed" src="../wp-content/uploads/pdf/Mecwin & IoT.pdf" type="application/pdf">
         </div>
     </div>
-   </section> -->
+   </section>
   </main>
   <!-- Footer -->
 
